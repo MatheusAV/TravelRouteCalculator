@@ -1,0 +1,13 @@
+D:\source\repos\CadastroRotas\CadastroRotasDomain\bin\Debug\net7.0\CadastroRotasDomain.deps.json
+D:\source\repos\CadastroRotas\CadastroRotasDomain\bin\Debug\net7.0\CadastroRotasDomain.dll
+D:\source\repos\CadastroRotas\CadastroRotasDomain\bin\Debug\net7.0\CadastroRotasDomain.pdb
+D:\source\repos\CadastroRotas\CadastroRotasDomain\bin\Debug\net7.0\CadastroRotasDomain.xml
+D:\source\repos\CadastroRotas\CadastroRotasDomain\obj\Debug\net7.0\CadastroRotasDomain.GeneratedMSBuildEditorConfig.editorconfig
+D:\source\repos\CadastroRotas\CadastroRotasDomain\obj\Debug\net7.0\CadastroRotasDomain.AssemblyInfoInputs.cache
+D:\source\repos\CadastroRotas\CadastroRotasDomain\obj\Debug\net7.0\CadastroRotasDomain.AssemblyInfo.cs
+D:\source\repos\CadastroRotas\CadastroRotasDomain\obj\Debug\net7.0\CadastroRotasDomain.csproj.CoreCompileInputs.cache
+D:\source\repos\CadastroRotas\CadastroRotasDomain\obj\Debug\net7.0\CadastroRotasDomain.dll
+D:\source\repos\CadastroRotas\CadastroRotasDomain\obj\Debug\net7.0\refint\CadastroRotasDomain.dll
+D:\source\repos\CadastroRotas\CadastroRotasDomain\obj\Debug\net7.0\CadastroRotasDomain.xml
+D:\source\repos\CadastroRotas\CadastroRotasDomain\obj\Debug\net7.0\CadastroRotasDomain.pdb
+D:\source\repos\CadastroRotas\CadastroRotasDomain\obj\Debug\net7.0\ref\CadastroRotasDomain.dll

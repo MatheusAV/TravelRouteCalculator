@@ -1,0 +1,57 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.9.34607.119
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CadastroRotasDomain", "CadastroRotasDomain\CadastroRotasDomain.csproj", "{3674A40C-88F4-4053-B86F-87C3F9DB0F27}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Domain", "Domain", "{B31281EC-E5C5-43CE-84A2-F55EFFD75225}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "API", "API", "{A7B248FC-CEAD-4378-8DD8-035401E393A9}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Infra", "Infra", "{19C5142F-185E-4FBA-85FD-BD9672C2CABF}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Aplication", "Aplication", "{EE62C099-27C6-4A0A-BAC0-8240C05F2FFD}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CadastroRotasRepository", "CadastroRotasRepository\CadastroRotasRepository.csproj", "{82F32FFA-D359-4F82-8ADA-2343BAA73AA8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CadastroRotasServices", "CadastroRotasServices\CadastroRotasServices.csproj", "{63E5C2AD-C4A1-493C-B6ED-26959D993D5F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CadastroRotasAPI", "CadastroRotasAPI\CadastroRotasAPI.csproj", "{40DB2C5D-44FF-4FFA-906B-B2D728DFD333}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{3674A40C-88F4-4053-B86F-87C3F9DB0F27}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3674A40C-88F4-4053-B86F-87C3F9DB0F27}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3674A40C-88F4-4053-B86F-87C3F9DB0F27}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3674A40C-88F4-4053-B86F-87C3F9DB0F27}.Release|Any CPU.Build.0 = Release|Any CPU
+		{82F32FFA-D359-4F82-8ADA-2343BAA73AA8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{82F32FFA-D359-4F82-8ADA-2343BAA73AA8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{82F32FFA-D359-4F82-8ADA-2343BAA73AA8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{82F32FFA-D359-4F82-8ADA-2343BAA73AA8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{63E5C2AD-C4A1-493C-B6ED-26959D993D5F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{63E5C2AD-C4A1-493C-B6ED-26959D993D5F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{63E5C2AD-C4A1-493C-B6ED-26959D993D5F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{63E5C2AD-C4A1-493C-B6ED-26959D993D5F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{40DB2C5D-44FF-4FFA-906B-B2D728DFD333}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{40DB2C5D-44FF-4FFA-906B-B2D728DFD333}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{40DB2C5D-44FF-4FFA-906B-B2D728DFD333}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{40DB2C5D-44FF-4FFA-906B-B2D728DFD333}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{3674A40C-88F4-4053-B86F-87C3F9DB0F27} = {B31281EC-E5C5-43CE-84A2-F55EFFD75225}
+		{82F32FFA-D359-4F82-8ADA-2343BAA73AA8} = {19C5142F-185E-4FBA-85FD-BD9672C2CABF}
+		{63E5C2AD-C4A1-493C-B6ED-26959D993D5F} = {EE62C099-27C6-4A0A-BAC0-8240C05F2FFD}
+		{40DB2C5D-44FF-4FFA-906B-B2D728DFD333} = {A7B248FC-CEAD-4378-8DD8-035401E393A9}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {C6EE21F1-3E13-44B7-B3E9-EA45EE41D98A}
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,56 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>CadastroRotasAPI</name>
+    </assembly>
+    <members>
+        <member name="M:CadastroRotasAPI.Controllers.RotaController.BuscaRotasAsync">
+            <summary>
+            Lista todas as rotas disponíveis.
+            </summary>
+            <response code="200">Retorna a lista de rotas.</response>
+            <response code="404">Não foi possível encontrar rotas.</response>
+        </member>
+        <member name="M:CadastroRotasAPI.Controllers.RotaController.BuscaRota(System.Int32)">
+            <summary>
+            Busca detalhes de uma rota específica pelo ID.
+            </summary>
+            <param name="id">O ID da rota.</param>
+            <response code="200">Retorna os detalhes da rota.</response>
+            <response code="404">Rota não encontrada.</response>
+        </member>
+        <member name="M:CadastroRotasAPI.Controllers.RotaController.InseriRota(CadastroRotasDomain.Entities.Rota)">
+            <summary>
+            Insere uma nova rota no sistema.
+            </summary>
+            <param name="rota">Dados da nova rota.</param>
+            <response code="201">Rota criada com sucesso.</response>
+            <response code="400">Erro ao inserir a rota.</response>
+        </member>
+        <member name="M:CadastroRotasAPI.Controllers.RotaController.AtualizaRota(CadastroRotasDomain.Entities.Rota)">
+            <summary>
+            Atualiza os dados de uma rota existente.
+            </summary>
+            <param name="rota">Dados atualizados da rota.</param>
+            <response code="200">Rota atualizada com sucesso.</response>
+            <response code="404">Rota não encontrada.</response>
+        </member>
+        <member name="M:CadastroRotasAPI.Controllers.RotaController.DeletaRota(System.Int32)">
+            <summary>
+            Deleta uma rota específica pelo ID.
+            </summary>
+            <param name="id">O ID da rota a ser deletada.</param>
+            <response code="200">Rota deletada com sucesso.</response>
+            <response code="400">Erro ao deletar a rota.</response>
+        </member>
+        <member name="M:CadastroRotasAPI.Controllers.RotaController.BuscaMelhorRota(System.String,System.String)">
+            <summary>
+            Busca a rota mais barata entre duas localidades.
+            </summary>
+            <param name="origem">A localidade de origem da rota.</param>
+            <param name="destino">A localidade de destino da rota.</param>
+            <response code="200">Rota mais barata encontrada com sucesso.</response>
+            <response code="400">Erro ao buscar a rota mais barata.</response>
+        </member>
+    </members>
+</doc>

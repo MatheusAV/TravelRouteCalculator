@@ -1,0 +1,20 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>CadastroRotasRepository</name>
+    </assembly>
+    <members>
+        <member name="T:CadastroRotasRepository.Migrations.InitProject">
+            <inheritdoc />
+        </member>
+        <member name="M:CadastroRotasRepository.Migrations.InitProject.Up(Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder)">
+            <inheritdoc />
+        </member>
+        <member name="M:CadastroRotasRepository.Migrations.InitProject.Down(Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder)">
+            <inheritdoc />
+        </member>
+        <member name="M:CadastroRotasRepository.Migrations.InitProject.BuildTargetModel(Microsoft.EntityFrameworkCore.ModelBuilder)">
+            <inheritdoc />
+        </member>
+    </members>
+</doc>
