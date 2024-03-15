@@ -14,5 +14,6 @@ namespace CadastroRotasRepository.Interfaces
 
         Task UpdateAsync(T entity);
         Task<IEnumerable<T>> AllAsync();
+        Task AddRangeAsync(IEnumerable<T> entities);
     }
 }

@@ -24,7 +24,7 @@ namespace CadastroRotasRepository.Stores.Generic
             catch (Exception)
             {
 
-                throw ;
+                throw;
             }
         }
         public async Task<IEnumerable<T>> AllAsync()
@@ -55,5 +55,20 @@ namespace CadastroRotasRepository.Stores.Generic
             entityInserted = entity;
             await _Context.SaveChangesAsync();
         }
+
+        public async Task AddRangeAsync(IEnumerable<T> entities)
+        {
+            try
+            {
+                _Context.Set<T>().AddRange(entities);
+
+                await _Context.SaveChangesAsync();
+            }
+            catch (Exception)
+            {
+                throw;
+            }
+        }
+
     }
 }

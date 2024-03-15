@@ -11,5 +11,6 @@ namespace CadastroRotasServices.Interfaces
         Task<ServiceResponse<Rota>> DeletaRota(Rota rota);
         Task<ServiceResponse<Rota>> InseriRota(Rota rota);
         Task<ServiceResponse<List<string>>> BuscaMelhorRotaAsync(string origem, string destino);
+        Task<ServiceResponse<List<Rota>>> InserirRotasAsync(List<Rota> rotas);
     }
 }

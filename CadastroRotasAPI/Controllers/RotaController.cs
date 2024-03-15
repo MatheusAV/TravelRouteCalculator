@@ -1,6 +1,7 @@
 using CadastroRotasDomain.Entities;
 using CadastroRotasDomain.MensageResponse;
 using CadastroRotasServices.Interfaces;
+using CadastroRotasServices.Services;
 using Microsoft.AspNetCore.Mvc;
 using Swashbuckle.AspNetCore.Annotations;
 
@@ -51,6 +52,23 @@ namespace CadastroRotasAPI.Controllers
             return NotFound(response);
         }
 
+        [HttpPost("InseriRotas")]
+        [SwaggerResponse(201, "Rotas inseridas com sucesso", typeof(ServiceResponse<List<Rota>>))]
+        [SwaggerResponse(400, "Erro ao inserir rotas")]
+        public async Task<IActionResult> InserirRotasAsync([FromBody] List<Rota> rotas)
+        {
+            var response = await _service.InserirRotasAsync(rotas);
+            if (response.Success)
+            {
+                // Retorna a lista completa das rotas inseridas, sem tentar redirecionar para um ID específico
+                return Ok(response); // Ou use StatusCode(201, response) para especificar explicitamente um status 201 Created
+            }
+            else
+            {
+                return BadRequest(response);
+            }
+        }
+
         /// <summary>
         /// Insere uma nova rota no sistema.
         /// </summary>
@@ -97,7 +115,7 @@ namespace CadastroRotasAPI.Controllers
         /// <response code="400">Erro ao deletar a rota.</response>
         [SwaggerResponse(200, "Rota deletada com sucesso", typeof(ServiceResponse<Rota>))]
         [SwaggerResponse(400, "Erro ao deletar a rota")]
-        [HttpDelete("Deleta/{id}")]      
+        [HttpDelete("Deleta/{id}")]
 
         public async Task<IActionResult> DeletaRota(int id)
         {
@@ -138,5 +156,6 @@ namespace CadastroRotasAPI.Controllers
                 return BadRequest(resposta);
             }
         }
+                
     }
 }

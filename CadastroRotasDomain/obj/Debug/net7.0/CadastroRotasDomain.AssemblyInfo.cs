@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("CadastroRotasDomain")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+acb61cfad0e9926b0ef01a6730095680aa74dd64")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+5501857ed406e16ff3868d35e3d9575695805c55")]
 [assembly: System.Reflection.AssemblyProductAttribute("CadastroRotasDomain")]
 [assembly: System.Reflection.AssemblyTitleAttribute("CadastroRotasDomain")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
